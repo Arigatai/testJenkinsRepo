@@ -15,7 +15,7 @@ namespace TestJenkinsConsoleApp
             var n2 = Int32.Parse(Console.ReadLine());
 
             Console.WriteLine();
-            Console.WriteLine($"Result = {n1 + n2}");
+            Console.WriteLine($"Result = {n1 * n2}");
             Console.ReadKey();
         }
     }
